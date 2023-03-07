@@ -1,0 +1,16 @@
+<%- include('partials/header.ejs'); -%>
+
+    <h1>Compose</h1>
+    <secton>
+        <form action="/compose" method="post">
+            <label><strong>Title</strong></label>
+            <br>
+            <input name="title" class="form-control" maxlength="90" width="40"></textarea>
+            <br>
+            <label><strong>Post</strong></label>
+            <br>
+            <textarea name="post" class="form-control" rows="10" cols="160"></textarea>
+            <br>
+            <button type="sumbit" class="btn btn-primary" name="publish-btn">Publish</button>
+        </form>
+    </secton>
